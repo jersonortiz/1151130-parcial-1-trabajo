@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="jerson andres ortiz calderon 1151130">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <link  type="text/css" rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+ 
+ 
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Te enviamos lo que sea </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <form class="navbar-form navbar-left" action="" name="buscar">
+
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="buscar">
+        </div>
+        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+      </form>  
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="login.html">login</a></li>
+                        <li><a href="registrocliente.html">registro</a></li>
+        <li><a href="listaelemento.html">lista de elementos</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+
+
+      <ol class="breadcrumb">
+  <li><a href="index.html">inicio</a></li>
+  <li><a href="listaelemento.html">listar elementos</a></li>
+  <li class="active">registrar elemento</li>
+</ol>
+
+</div>
+</div>
+
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Añadir elemento</h3>
+  </div>
+  <div class="panel-body">
+    
+<form action="" method="post" name="registroelemento" id="regele">
+  <div class="form-group">
+    <label for="text">Nombre de elemento </label>
+    <input type="text" class="form-control" id="Nombre" placeholder="dinosaurio" required>
+  </div>
+  <div class="form-group">
+    <label for="number">cantidad </label>
+    <input type="number" class="form-control" id="cantidad" placeholder="0" required>
+  </div> 
+    <div class="form-group">
+    <label for="precio">precio </label>
+    <input type="number" class="form-control" id="precio" placeholder="0" required>
+  </div> 
+
+
+
+<div class="form-group">
+  <label for="sel1">tipo de eemento</label>
+  <select class="form-control" id="sel1">
+    <option value="1">electronico</option>
+    <option value="2">vestimenta</option>
+    <option value="3">alimento</option>
+    <option value="4">vehiculo</option>
+    <option value="5">articulo medico</option>
+    <option value="6">mascota</option>
+    <option value="7">otro</option>
+  </select>
+</div>
+
+
+    <div class="form-group">
+    <label for="number">descripcion del elemento </label>
+  <textarea class="form-control" rows="3"></textarea>
+  </div> 
+
+
+
+    <div class="form-group">
+    <label for="InputFile">imagen del elemento </label>
+    <input type="file" id="imagen">
+    <p class="help-block">seleccione un archivo de su computadora</p>
+  </div>
+
+
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" >contiene tiene materia radioactivo
+    </label>
+  </div>
+    <div class="checkbox">
+    <label>
+      <input type="checkbox">es fragil
+    </label>
+  </div>
+
+
+
+  <button type="submit" class="btn btn-default">guardar</button>
+</form>
+
+  </div>
+</div>
+
+
+                    
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+</body>
+
+</html>

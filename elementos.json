@@ -1,0 +1,14 @@
+
+{   
+"elementos": [  
+
+
+    {"id":"1","nombre":"ram 4gb" ,"tipo":"electronico","cantidad":"1" ,"precio":"500", "descripcion":"una memoria  de 4 gb", "imagen":"img/1.jpg" ,"radiacion":"1" , "fragil":"1" },
+    {"id":"2","nombre":"perro mutante gratis" ,"tipo":"vehiculo", "cantidad":"1", "precio":"0" , "descripcion":"un perro que comio desechos nucleares , no parece un perro pero lo es", "imagen":"img/2.jpg","radiacion":"1" , "fragil":"1" },
+    {"id":"3","nombre":"esqueleto de dinosaurio" ,"tipo":"vestimenta", "cantidad":"10" ,"precio":"10000" ,"descripcion":"un fosil de dinosaurio", "imagen":"img/3.jpg","radiacion":"0" , "fragil":"1" }, 
+    {"id":"4","nombre":"un ladrillo" ,"tipo":"electronico" ,"cantidad":"1000", "precio":"1" , "descripcion":"un ladrillo", "imagen":"img/4.jpg","radiacion":"0" , "fragil":"0" },
+    {"id":"5","nombre":"una piedra" ,"tipo":"electronico" , "cantidad":"100000","precio":"1" , "descripcion":"una piedra", "imagen":"img/4.jpg","radiacion":"0" , "fragil":"0" }  
+]
+}
+  
+
